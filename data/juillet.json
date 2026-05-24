@@ -1,0 +1,65 @@
+[
+  {
+    "date": "5 Juillet",
+    "label": "Parcours A",
+    "km": "88 km",
+    "num": 59,
+    "garmin": "https://connect.garmin.com/app/course/454516400"
+  },
+  {
+    "date": "5 Juillet",
+    "label": "Parcours B",
+    "km": "76 km",
+    "num": 60,
+    "garmin": "https://connect.garmin.com/app/course/454516719"
+  },
+  {
+    "date": "12 Juillet",
+    "label": "Parcours A",
+    "km": "93 km",
+    "num": 61,
+    "garmin": "https://connect.garmin.com/app/course/454521978"
+  },
+  {
+    "date": "12 Juillet",
+    "label": "Parcours B",
+    "km": "84 km",
+    "num": 62,
+    "garmin": "https://connect.garmin.com/app/course/454522170"
+  },
+  {
+    "date": "14 Juillet",
+    "label": "Parcours A & B",
+    "km": "78 km",
+    "num": 63,
+    "garmin": "https://connect.garmin.com/app/course/454533545"
+  },
+  {
+    "date": "19 Juillet",
+    "label": "Parcours A",
+    "km": "90 km",
+    "num": 64,
+    "garmin": "https://connect.garmin.com/app/course/460428766"
+  },
+  {
+    "date": "19 Juillet",
+    "label": "Parcours B",
+    "km": "76 km",
+    "num": 65,
+    "garmin": "https://connect.garmin.com/app/course/460429285"
+  },
+  {
+    "date": "26 Juillet",
+    "label": "Parcours A",
+    "km": "93 km",
+    "num": 66,
+    "garmin": "https://connect.garmin.com/app/course/460431208"
+  },
+  {
+    "date": "26 Juillet",
+    "label": "Parcours B",
+    "km": "76 km",
+    "num": 67,
+    "garmin": "https://connect.garmin.com/app/course/460431957"
+  }
+]

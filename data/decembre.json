@@ -1,0 +1,44 @@
+[
+  {
+    "date": "6 Décembre",
+    "label": "Parcours A",
+    "km": "70 km",
+    "num": 108,
+    "garmin": "https://connect.garmin.com/app/course/461984187"
+  },
+  {
+    "date": "6 Décembre",
+    "label": "Parcours B",
+    "km": "53 km",
+    "num": 109,
+    "garmin": "https://connect.garmin.com/app/course/461984794"
+  },
+  {
+    "date": "13 Décembre",
+    "label": "Parcours A",
+    "km": "68 km",
+    "num": 110,
+    "garmin": "https://connect.garmin.com/app/course/461986545"
+  },
+  {
+    "date": "13 Décembre",
+    "label": "Parcours B",
+    "km": "56 km",
+    "num": 111,
+    "garmin": "https://connect.garmin.com/app/course/461986848"
+  },
+  {
+    "date": "20 Décembre",
+    "label": "Parcours A",
+    "km": "69 km",
+    "num": 112,
+    "garmin": "https://connect.garmin.com/app/course/461987787"
+  },
+  {
+    "date": "20 Décembre",
+    "label": "Parcours B",
+    "km": "55 km",
+    "num": 113,
+    "garmin": "https://connect.garmin.com/app/course/461991871"
+  }
+]

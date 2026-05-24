@@ -1,0 +1,58 @@
+[
+  {
+    "date": "4 Octobre",
+    "label": "Parcours A",
+    "km": "83 km",
+    "num": 88,
+    "garmin": "https://connect.garmin.com/app/course/461072912"
+  },
+  {
+    "date": "4 Octobre",
+    "label": "Parcours B",
+    "km": "71 km",
+    "num": 89,
+    "garmin": "https://connect.garmin.com/app/course/461074396"
+  },
+  {
+    "date": "11 Octobre",
+    "label": "Parcours A",
+    "km": "84 km",
+    "num": 90,
+    "garmin": "https://connect.garmin.com/app/course/461076002"
+  },
+  {
+    "date": "11 Octobre",
+    "label": "Parcours B",
+    "km": "73 km",
+    "num": 91,
+    "garmin": "https://connect.garmin.com/app/course/461076995"
+  },
+  {
+    "date": "18 Octobre",
+    "label": "Parcours A",
+    "km": "82 km",
+    "num": 92,
+    "garmin": "https://connect.garmin.com/app/course/461130671"
+  },
+  {
+    "date": "18 Octobre",
+    "label": "Parcours B",
+    "km": "68 km",
+    "num": 93,
+    "garmin": "https://connect.garmin.com/app/course/461132868"
+  },
+  {
+    "date": "25 Octobre",
+    "label": "Parcours A",
+    "km": "76 km",
+    "num": 94,
+    "garmin": "https://connect.garmin.com/app/course/461133386"
+  },
+  {
+    "date": "25 Octobre",
+    "label": "Parcours B",
+    "km": "65 km",
+    "num": 95,
+    "garmin": "https://connect.garmin.com/app/course/461136837"
+  }
+]
