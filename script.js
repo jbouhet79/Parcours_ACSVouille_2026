@@ -19,6 +19,18 @@ function loadPage(page) {
     a.classList.toggle('active', j === i);
   });
 
+  // Charger le header
+  fetch('header.html')
+    .then(r => r.text())
+    .then(html => {
+      document.getElementById('header').innerHTML = html;
+      // Marquer l'onglet actif
+      document.querySelectorAll('nav a').forEach(a => {
+        if (a.href.includes(page)) a.classList.add('active');
+      });
+    });
+
+  // Charger les données du mois
   fetch('data/' + page + '.json')
     .then(r => r.json())
     .then(data => {
