@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@300;400;500&display=swap');
+:root { --bleu:#21253d; --rouge:#9e278b; --rose:#fa6bc6; --gris:#f4f5f7; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Barlow',sans-serif; background:var(--gris); color:#222; }
+header { background:var(--bleu); color:white; padding:20px 40px; display:flex; align-items:center; justify-content:space-between; border-bottom:4px solid var(--rose); }
+header h1 { font-family:'Barlow Condensed',sans-serif; font-weight:900; font-size:2.2rem; letter-spacing:1px; }
+header .subtitle { font-size:0.9rem; opacity:0.75; margin-top:4px; font-weight:300; }
+header .contact { font-family:'Barlow Condensed',sans-serif; font-size:1rem; text-align:right; opacity:0.85; display:flex; align-items:center; gap:16px; }
+nav { background:#161a2e; padding:0 40px; display:flex; gap:4px; overflow-x:auto; }
+nav a { color:rgba(255,255,255,0.7); text-decoration:none; font-family:'Barlow Condensed',sans-serif; font-size:1.05rem; font-weight:600; padding:12px 18px; display:block; letter-spacing:0.5px; white-space:nowrap; transition:color 0.2s,background 0.2s; }
+nav a:hover { color:white; background:rgba(255,255,255,0.08); }
+nav a.active { color:var(--rose); border-bottom:3px solid var(--rose); }
+.mois-titre { font-family:'Barlow Condensed',sans-serif; font-weight:900; font-size:2rem; color:var(--bleu); text-transform:uppercase; letter-spacing:3px; padding:28px 40px 8px; border-bottom:2px solid var(--bleu); }
+.mois-titre img { height:40px; vertical-align:middle; margin-right:10px; }
+.depart { font-size:1.4rem; color:#333; padding:6px 40px 20px; font-style:italic; font-weight:600; }
+.section-date { padding:10px 40px 4px; font-family:'Barlow Condensed',sans-serif; font-size:1.5rem; font-weight:700; color:var(--rouge); text-transform:uppercase; }
+.grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; padding:12px 40px 24px; }
+.grid.single { grid-template-columns:1fr; max-width:700px; }
+.card { background:white; border-radius:10px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08); transition:transform 0.2s,box-shadow 0.2s; }
+.card:hover { transform:translateY(-3px); box-shadow:0 6px 24px rgba(0,0,0,0.13); }
+.card-header { display:flex; align-items:center; justify-content:space-between; padding:12px 18px; background:var(--bleu); color:white; }
+.card-header .parcours-label { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:1.1rem; }
+.km-badge { background:var(--rose); color:var(--bleu); font-family:'Barlow Condensed',sans-serif; font-weight:900; font-size:1rem; padding:3px 12px; border-radius:20px; white-space:nowrap; }
+.card-img-wrap { cursor:zoom-in; overflow:hidden; height:220px; display:flex; align-items:center; justify-content:center; background:#eef0f3; }
+.card-img-wrap img { width:100%; height:100%; object-fit:contain; display:block; transition:transform 0.3s; }
+.card-img-wrap:hover img { transform:scale(1.03); }
+.card-footer { display:flex; gap:10px; padding:10px 12px; background:#f0f0f0; }
+.btn-garmin { flex:1; text-align:center; background:var(--bleu); color:white; padding:8px; border-radius:6px; text-decoration:none; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:0.95rem; }
+.btn-garmin:hover { background:var(--rouge); }
+.btn-gpx { flex:1; text-align:center; background:var(--rose); color:var(--bleu); padding:8px; border-radius:6px; text-decoration:none; font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:0.95rem; }
+.btn-gpx:hover { opacity:0.85; }
+.hint { font-size:0.75rem; color:#999; text-align:center; padding:6px; background:#fafafa; }
+.vide { text-align:center; padding:60px 40px; color:#aaa; font-size:1.1rem; font-style:italic; }
+#lightbox { display:none; position:fixed; inset:0; background:rgba(10,20,40,0.92); z-index:1000; align-items:center; justify-content:center; flex-direction:column; cursor:zoom-out; }
+#lightbox.active { display:flex; animation:fadeIn 0.2s ease; }
+@keyframes fadeIn { from{opacity:0} to{opacity:1} }
+#lightbox img { max-width:98vw; max-height:96vh; border-radius:8px; box-shadow:0 20px 60px rgba(0,0,0,0.5); object-fit:contain; cursor:default; }
+#lightbox-caption { color:white; font-family:'Barlow Condensed',sans-serif; font-size:1.3rem; margin-top:16px; letter-spacing:1px; }
+#lightbox-close { position:fixed; top:18px; right:24px; color:white; font-size:2.5rem; cursor:pointer; background:none; border:none; }
+footer { text-align:center; padding:30px; color:#aaa; font-size:0.85rem; margin-top:20px; border-top:1px solid #ddd; }
+@media(max-width:700px){ .grid{grid-template-columns:1fr;padding:12px 16px 24px} .mois-titre,.depart,.section-date{padding-left:16px;padding-right:16px} header{flex-direction:column;gap:10px;text-align:center} nav{padding:0 8px} .card-footer{flex-direction:column} }

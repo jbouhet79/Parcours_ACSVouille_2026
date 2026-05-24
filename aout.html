@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ACS Vouillé 79 — Août</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div style="display:flex; align-items:center; gap:16px;">
+    <img src="logo.png" alt="Logo ACS Vouillé" style="height:60px;">
+    <div>
+      <h1>ACS Vouillé 79</h1>
+      <div class="subtitle">Calendrier des parcours 2026</div>
+    </div>
+  </div>
+  <div class="contact">
+    <div>Bruno LE MOAL<br><strong>06 49 75 85 02</strong></div>
+    <img src="Maillot_ACSV79.png" alt="Maillot ACS Vouillé" style="height:60px;">
+  </div>
+</header>
+<nav>
+  <a href="juillet.html">Juillet</a>
+  <a href="aout.html">Août</a>
+  <a href="septembre.html">Septembre</a>
+  <a href="octobre.html">Octobre</a>
+  <a href="novembre.html">Novembre</a>
+  <a href="decembre.html">Décembre</a>
+</nav>
+<div class="mois-titre">
+  <img src="Cycliste_Vouille_png.png" alt="cycliste">
+  <span>Août</span>
+</div>
+<div class="depart">Départ 8h30</div>
+<div id="content"></div>
+<div id="lightbox" onclick="closeLightbox()">
+  <button id="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img id="lightbox-img" src="" alt="" onclick="event.stopPropagation()">
+  <div id="lightbox-caption"></div>
+</div>
+<footer>ACS Vouillé 79 — Tous droits réservés</footer>
+<script src="script.js"></script>
+<script>loadPage('aout');</script>
+</body>
+</html>
